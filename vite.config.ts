@@ -2,10 +2,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-const repoName = "pizza-restaurant";
-
 export default defineConfig({
-  base: `/${repoName}/`,
+ base: '/pizza-restaurant/',
   server: {
     host: "::",
     port: 8080,
