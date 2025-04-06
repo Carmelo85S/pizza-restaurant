@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
             <button onClick={() => scrollToSection('about')} className="block w-full text-left py-2 font-medium hover:text-pizza-600">About</button>
             <button onClick={() => scrollToSection('contact')} className="block w-full text-left py-2 font-medium hover:text-pizza-600">Contact</button>
             <Button onClick={() => scrollToSection('contact')} className="bg-pizza-600 hover:bg-pizza-700 text-white w-full">
-              <ShoppingCart className="mr-2 h-4 w-4" /> Book Now
+              Book Now
             </Button>
           </div>
         </div>
