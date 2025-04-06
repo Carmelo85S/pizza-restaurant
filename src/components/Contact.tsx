@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
                 <div className="ml-4">
                   <h3 className="font-serif font-bold text-lg">Address</h3>
                   <address className="not-italic text-gray-600 mt-1">
-                    Utövägen 4, 132 30<br />
+                    orminge 2, 132 30<br />
                     Saltsjö-boo
                   </address>
                 </div>
@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
                 <div className="ml-4">
                   <h3 className="font-serif font-bold text-lg">Phone</h3>
                   <div className="text-gray-600 text-sm mt-1">
-                    08801800
+                    07345678910
                   </div>
                 </div>
                 <div className="bg-pizza-50 p-3 rounded-full">
@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
                   <div className="ml-4">
                     <h3 className="font-serif font-bold text-lg">Email</h3>
                     <a className="text-gray-600 text-sm mt-1">
-                      info@primanapoletana.com
+                      info@carmelospizza.com
                     </a>
                   </div>
               </div>

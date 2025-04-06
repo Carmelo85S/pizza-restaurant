@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-white/95 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
       <div className="container-custom py-4 flex justify-between items-center">
         <a href="/" className="flex items-center">
-          <span className="text-2xl font-serif font-bold text-pizza-800">Prima<span className="text-pizza-600">Napoletana</span></span>
+          <span className="text-2xl font-serif font-bold text-pizza-800">Carmelo's<span className="text-pizza-600">PIZZA</span></span>
         </a>
 
         {/* Desktop Navigation */}
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
             <a href="#about" className="block py-2 font-medium hover:text-pizza-600" onClick={() => setIsMenuOpen(false)}>About</a>
             <a href="#contact" className="block py-2 font-medium hover:text-pizza-600" onClick={() => setIsMenuOpen(false)}>Contact</a>
             <Button className="bg-pizza-600 hover:bg-pizza-700 text-white w-full">
-              <ShoppingCart className="mr-2 h-4 w-4" /> Order Now
+              <ShoppingCart className="mr-2 h-4 w-4" /> Book Now
             </Button>
           </div>
         </div>

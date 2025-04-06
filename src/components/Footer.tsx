@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-          <h3 className="text-2xl font-serif font-bold text-pizza-800">Prima<span className="text-pizza-600">Napoletana</span></h3>
+          <h3 className="text-2xl font-serif font-bold text-pizza-800">Carmelo's<span className="text-pizza-600">PIZZA</span></h3>
             <p className="mt-4 text-gray-400">
               With love since 2020
             </p>
@@ -38,11 +38,11 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg text-black font-bold mb-4">Contact Us</h4>
             <address className="not-italic text-black">
-              123 Pizza Street<br />
-              New York, NY 10001
+              Orminge 2, 132 30<br />
+              Saltsjö-boo
             </address>
-            <p className="mt-4 text-black">(212) 555-1234</p>
-            <p className="text-black">info@bellapizza.com</p>
+            <p className="mt-4 text-black">(07345678910)</p>
+            <p className="text-black">info@carmelospizza.com</p>
           </div>
           
           <div>
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
         
         <div className="mt-12 pt-6 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-black">© 2025 BellaPizza. All rights reserved.</p>
+            <p className="text-black">© 2025 Carmelo'sPIZZA. All rights reserved.</p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-6">
                 <li><a href="#" className="text-black hover:text-pizza-700 text-sm">Privacy Policy</a></li>
