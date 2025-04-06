@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Menu, X, ShoppingCart } from 'lucide-react';
+import { Menu, X, ShoppingCart, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Navbar: React.FC = () => {
@@ -14,7 +13,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-white/95 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
       <div className="container-custom py-4 flex justify-between items-center">
         <a href="/" className="flex items-center">
-          <span className="text-2xl font-serif font-bold text-pizza-800">Bella<span className="text-pizza-600">Pizza</span></span>
+          <span className="text-2xl font-serif font-bold text-pizza-800">Prima<span className="text-pizza-600">Napoletana</span></span>
         </a>
 
         {/* Desktop Navigation */}
@@ -22,9 +21,12 @@ const Navbar: React.FC = () => {
           <a href="#menu" className="font-medium hover:text-pizza-600 transition-colors">Menu</a>
           <a href="#about" className="font-medium hover:text-pizza-600 transition-colors">About</a>
           <a href="#contact" className="font-medium hover:text-pizza-600 transition-colors">Contact</a>
-          <Button className="bg-pizza-600 hover:bg-pizza-700 text-white">
-            <ShoppingCart className="mr-2 h-4 w-4" /> Order Now
-          </Button>
+          <a 
+            href="#contact"
+            className="inline-flex items-center justify-center bg-pizza-600 hover:bg-pizza-700 text-white text-lg font-semibold py-2 px-8 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+          >
+            Book now <ArrowRight className="ml-2 h-5 w-5" />
+          </a>
         </div>
 
         {/* Mobile Menu Button */}

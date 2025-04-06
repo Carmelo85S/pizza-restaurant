@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import MenuCard from './MenuCard';
 import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
 
 const pizzaCategories = ["All", "Classic", "Specialty", "Vegetarian", "Spicy"];
 
@@ -110,9 +111,12 @@ const Menu: React.FC = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button size="lg" className="bg-pizza-600 hover:bg-pizza-700 text-white">
-            View Full Menu
-          </Button>
+          <a 
+            href="#contact"
+            className="inline-flex items-center justify-center bg-pizza-600 hover:bg-pizza-700 text-white text-lg font-semibold py-2 px-8 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+          >
+            Book now <ArrowRight className="ml-2 h-5 w-5" />
+          </a>
         </div>
       </div>
     </section>

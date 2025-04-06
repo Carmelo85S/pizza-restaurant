@@ -40,16 +40,6 @@ const About: React.FC = () => {
                 className="w-full h-auto"
               />
             </div>
-            
-            <div className="absolute -bottom-6 -right-6 hidden md:block">
-              <div className="bg-white shadow-lg rounded-full p-4 transform rotate-12">
-                <img 
-                  src="https://i.imgur.com/tGbaZCY.png" 
-                  alt="Italian quality seal" 
-                  className="h-24 w-24"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </div>
