@@ -11,7 +11,7 @@ const pizzaItems = [
     id: 1,
     name: "Margherita",
     description: "Fresh mozzarella, tomato sauce, basil, and extra virgin olive oil",
-    price: "$14.99",
+    price: "€14.99",
     image: "https://images.unsplash.com/photo-1604917877934-07d8d248d396?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
     category: "Classic",
     popular: true
@@ -20,7 +20,7 @@ const pizzaItems = [
     id: 2,
     name: "Pepperoni",
     description: "Tomato sauce, mozzarella, and spicy pepperoni",
-    price: "$16.99",
+    price: "€16.99",
     image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     category: "Classic",
     popular: true
@@ -29,7 +29,7 @@ const pizzaItems = [
     id: 3,
     name: "Quattro Formaggi",
     description: "Mozzarella, gorgonzola, fontina, and parmigiano",
-    price: "$18.99",
+    price: "€18.99",
     image: "https://images.unsplash.com/photo-1620374643809-b69c702d0ed4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     category: "Specialty"
   },
@@ -37,7 +37,7 @@ const pizzaItems = [
     id: 4,
     name: "Diavola",
     description: "Spicy salami, hot chili peppers, tomato sauce, and mozzarella",
-    price: "$17.99",
+    price: "€17.99",
     image: "https://images.unsplash.com/photo-1565564194296-14db6e0bf8a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     category: "Spicy",
     popular: true
@@ -46,7 +46,7 @@ const pizzaItems = [
     id: 5,
     name: "Vegetariana",
     description: "Bell peppers, mushrooms, onions, olives, and artichokes",
-    price: "$15.99",
+    price: "€15.99",
     image: "https://images.unsplash.com/photo-1542282811-943ef1a977c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     category: "Vegetarian"
   },
@@ -54,7 +54,7 @@ const pizzaItems = [
     id: 6,
     name: "Prosciutto e Funghi",
     description: "Prosciutto ham, mushrooms, mozzarella, and tomato sauce",
-    price: "$19.99",
+    price: "€19.99",
     image: "https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     category: "Specialty"
   }
