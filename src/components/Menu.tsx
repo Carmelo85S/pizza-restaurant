@@ -62,6 +62,13 @@ const pizzaItems = [
 
 const Menu: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState("All");
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   
   const filteredItems = activeCategory === "All" 
     ? pizzaItems 
@@ -111,12 +118,12 @@ const Menu: React.FC = () => {
         </div>
         
         <div className="text-center mt-12">
-          <a 
-            href="#contact"
+          <button 
+            onClick={() => scrollToSection('contact')}
             className="inline-flex items-center justify-center bg-pizza-600 hover:bg-pizza-700 text-white text-lg font-semibold py-2 px-8 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105"
           >
             Book now <ArrowRight className="ml-2 h-5 w-5" />
-          </a>
+          </button>
         </div>
       </div>
     </section>

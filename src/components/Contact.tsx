@@ -59,20 +59,20 @@ const Contact: React.FC = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center flex-col flex-wrap">
                 <div className="bg-pizza-50 p-3 rounded-full">
                 <Phone className="h-6 w-6 text-pizza-600" />
                 </div>
-                <div className="ml-4">
-                  <h3 className="font-serif font-bold text-lg">Phone</h3>
+                <div className="ml-4 flex items-center justify-center flex-col">
+                <h3 className="font-serif font-bold text-lg">Phone</h3>
                   <div className="text-gray-600 text-sm mt-1">
                     07345678910
                   </div>
                 </div>
-                <div className="bg-pizza-50 p-3 rounded-full">
+                  <div className="bg-pizza-50 p-3 rounded-full">
                     <Mail className="h-6 w-6 text-pizza-600" />
                   </div>
-                  <div className="ml-4">
+                  <div className="ml-4 flex items-center justify-center flex-col">
                     <h3 className="font-serif font-bold text-lg">Email</h3>
                     <a className="text-gray-600 text-sm mt-1">
                       info@carmelospizza.com

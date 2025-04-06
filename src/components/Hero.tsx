@@ -1,9 +1,8 @@
 import { ArrowRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
-
   return (
-    <div className="relative overflow-hidden">
+    <div id="hero" className="relative overflow-hidden">
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-hero-pattern bg-cover bg-center opacity-80"></div>
